@@ -1,10 +1,12 @@
-let pages = ["page1","page2"];
-let doc = document.querySelector("h1")
-cluster=``;
+let pages = ["page1","page2","page3","page4"];
+let doc = document.querySelector("main")
+let pag = document.getElementById("page1")
+
 for (let page in pages){
-    cluster +=  `${pages[page]}`+" ";
+    doc.innerHTML += `<div style="display:flex;justify-content:center;align-items:center;" id=${pages[page]}>
+    <div id=box></div>
+    </div>`;
 }
-doc.innerText=cluster;
 
 
 let tl = gsap.timeline()

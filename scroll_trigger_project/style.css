@@ -34,7 +34,7 @@ h1{
     word-spacing: 10px;
 }
 div[id^=page]{
-    background-color: red;
+    background-color: rgba(148, 125, 125, 0.231);
     height: 100%;
     width: 100%;
     border: 2px solid black;
