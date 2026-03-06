@@ -1,0 +1,16 @@
+@font-face {
+    font-family: "gilroy";
+    src: url(/gilroy/Gilroy-Regular.ttf);
+}
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "gilroy";
+}
+html,body,main{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.731);
+    color: white;
+}

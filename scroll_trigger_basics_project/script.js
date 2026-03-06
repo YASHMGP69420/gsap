@@ -45,6 +45,6 @@ gsap.from("#page2 #box",{
                start:"top 60%",
                end:"top 30%",
                scrub:2,
-               pin:true
+               // pin:true
            }
 })
